@@ -2,7 +2,7 @@
 All files are read into Matlab using var = csvread('filename.csv', 1, 1);
 
 DIV dependent recordings:
-Branches per day are separated into two results files. 
+Folders are separated by day and coverslip into two results files. (E.g. DIV 09/CS1/Results_pt1.csv is the first coverslip recoded from DIV in the baseline condition) 
 Results_pt1.csv is always the baseline of the recording and Results_pt2.csv is always the methamphetamine exposure portion. 
 Files can be directly concatenated in Matlab as the signal is continuous between condition.
 
