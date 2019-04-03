@@ -1,4 +1,5 @@
 # VMNetwork
+All files are read into Matlab using var = csvread('filename.csv', 1, 1);
 
 DIV dependent recordings:
 Branches per day are separated into two results files. 
